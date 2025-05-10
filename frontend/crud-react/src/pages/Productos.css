@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Overlock', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+span {
+    font-weight: 800;
+}
+
+.borrar {
+    font-family: 'Overlock', sans-serif;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.actualizar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.actualizarLink {
+    font-family: 'Overlock', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.agregarBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.agregarLink {
+    font-family: 'Overlock', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
